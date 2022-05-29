@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>List Product Makanan</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="title">
+      <h1>List Product Makanan di Indonesia</h1></div>
+
+  <div class="product-wrapper">
+    <div class="product-list">
+      <% makanan.forEach(function(makanan) { %>
+        <div class="product-list-card">
+          <h2 class="title-font"><%= makanan.nama %></h2>
+          <p class="content-font">Varian Makanan : <%= makanan.varian  %> </p>
+          <h3 class="content-font">Harga: <%= makanan.harga  %> </h3>
+          <img class="content-font"src ="<%= makanan.urlFoto %>" width="400" height="400"/>
+
+          
+        </div>
+      <% }); %> 
+    </div>
+    <div class="button-list">
+      <p><button>Cek Perusahaan Pembuat</button></p>
+      <p><button>Cek kategori makanan</button></p>
+    </div>
+    
+  </div>
+</body>
+</html>

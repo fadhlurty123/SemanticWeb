@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perusahaan Garudafood</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="title">
+    <div class="logo"><a href="/"><img src ="images/logo.png" width="80" height="80"/></a></div>
+    <h1>Garudafood Company</h1></div>
+      <img class="company_logo"src ="https://garudafood.com/cfind/source/images/products/sejarah%202015.jpg" width="400" height="400"/>
+      <div class="company_name">
+        <h2>Product list :</h2></div>
+  <div class="product-wrapper">
+    <div class="product-list">
+      <% garudafood.forEach(function(garudafood) { %>
+        <div class="product-list-card">
+          <h2 class="title-font"><%= garudafood.nama %></h2>
+          <p class="content-font">Varian garudafood : <%= garudafood.varian  %> </p>
+          <h3 class="content-font">Harga: <%= garudafood.harga  %> </h3>
+          <img class="content-font"src ="<%= garudafood.urlFoto %>" width="400" height="400"/>
+
+          
+        </div>
+      <% }); %> 
+    </div>
+  </div>
+</body>
+</html>

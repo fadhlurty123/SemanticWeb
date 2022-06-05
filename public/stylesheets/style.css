@@ -2,18 +2,45 @@ body {
   margin: 0;
 }
 
+h1{ grid-area:main;}
+.logo{ grid-area:logo;}
+
 .title{
   padding-top: 0.1%;
   padding-bottom: 0.1%;
+  display: grid;
+  grid-template-areas: 'logo logo main main main main';
   background-color: rgb(0, 0, 0);
 }
 h1{
-  font-size: 2rem;
+  font-size: 3rem;
+  margin-left: 15%;
   font-weight: bold;
-  text-align: center;
   color: #ffffff;
 }
 
+.logo{  
+  margin-left:15%;
+  margin-top:1%;
+}
+
+.logo:hover {
+  opacity: 0.7;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.company_name{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.company_logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .product-wrapper { 
   padding: .1rem; 
@@ -29,7 +56,7 @@ h1{
 
 .button-list {
   display:grid;
-  grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(2000px, 1fr));
   grid-gap: 1rem;
   text-align: center;    
 }
@@ -41,7 +68,7 @@ h1{
 .product-list .product-list-card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-button {
+a {
   display:grid;
   border: none;
   outline: 0;
@@ -54,7 +81,23 @@ button {
   font-size: 18px;
 }
 
-button:hover {
+a:hover {
   opacity: 0.7;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
 }

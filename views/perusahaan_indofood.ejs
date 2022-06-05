@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Perusahaan Indofood</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="title">
+    <div class="logo"><a href="/"><img src ="images/logo.png" width="80" height="80"/></a></div>
+    <h1>Indofood Company</h1></div>
+      <img class="company_logo"src ="https://pbs.twimg.com/profile_images/675251657425424384/qG_ObzzQ_400x400.jpg" width="400" height="400"/>
+      <div class="company_name">
+        <h2>Product list :</h2></div>
+  <div class="product-wrapper">
+    <div class="product-list">
+      <% indofood.forEach(function(indofood) { %>
+        <div class="product-list-card">
+          <h2 class="title-font"><%= indofood.nama %></h2>
+          <p class="content-font">Varian indofood : <%= indofood.varian  %> </p>
+          <h3 class="content-font">Harga: <%= indofood.harga  %> </h3>
+          <img class="content-font"src ="<%= indofood.urlFoto %>" width="400" height="400"/>
+
+          
+        </div>
+      <% }); %> 
+    </div>    
+  </div>
+
+</body>
+</html>

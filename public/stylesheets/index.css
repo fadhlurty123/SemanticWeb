@@ -1,9 +1,56 @@
 body {
-    background-image: url(../images/car-background-2.png);
-    padding: 50px;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; 
 }
   
-a {
-    color: #00B7FF;
+.logo {
+margin-left: 42%;
+margin-top: 5%;
+margin-right: 0%;
 }
+
+.logo:hover {
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .product-wrapper { 
+    padding: .5rem; 
+    margin: 1rem;
+  }
+
+  .button-list {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(1000px, 1fr));
+    grid-gap: 1rem;
+    text-align: center;    
+  }
+
+  p{
+      background-color: rgb(255, 255, 255);
+      color: #000;
+  }
+
+  a {
+    display:grid;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 25px;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }

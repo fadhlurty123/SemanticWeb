@@ -1,0 +1,201 @@
+@prefix data: <http://makanan.com/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+data:1 rdf:type data:makanan;
+    data:id "1";
+    data:nama "Indomie";
+    data:harga "Rp 2.500";
+    data:varian "Mie goreng, Rendang, Soto ayam";
+    data:perusahaan "Indofood" ;
+    data:subKategori "noodles" ;
+    data:urlFoto "https://www.indomie.com/uploads/product/indomie-mi-goreng-special_detail_094906814.png".
+
+
+data:2 rdf:type data:makanan;
+    data:id "2";
+    data:nama "Mie sakura";
+    data:harga "Rp 1.500";
+    data:varian "Kuah Rasa Soto, Baso sapi, Ayam bawang";
+    data:perusahaan "Indofood" ;
+    data:subKategori "noodles" ;
+    data:urlFoto "https://www.goodnewsfromindonesia.id/uploads/post/large-30f9509571d77896383ce707aa105725-fef1fbf35d30edb52716b5cbf55dc33c.jpg".
+
+
+data:3 rdf:type data:makanan;
+    data:id "3";
+    data:nama "Chitato";
+    data:harga "Rp 12.600";
+    data:varian "sapi panggang, Ayam bakar";
+    data:perusahaan "Indofood" ;
+    data:subKategori "Snack" ;
+    data:urlFoto "https://www.luluhypermarket.com/medias/368325-001.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w5NTE1Mjh8aW1hZ2UvanBlZ3xoMGIvaGFkLzEwOTA0NzQxNzA3ODA2LzM2ODMyNS0wMDEuanBnXzEyMDBXeDEyMDBIfDVlMTJkODMwNDA2YmE4NWMyODRhOGY2MDk1NWU1NTQzNTliODQzNzg2Y2FkY2Q0M2RjZTUxMDAwYzJhNjE1OTQ".
+
+
+data:4 rdf:type data:makanan;
+    data:id "4";
+    data:nama "Qitela";
+    data:harga "Rp 5.700";
+    data:varian "rumput laut, garam";
+    data:perusahaan "Indofood" ;
+    data:subKategori "Snack" ;
+    data:urlFoto "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/9/16/d17966cc-1a66-4045-b543-ea0c333c16f8.jpg".
+
+
+data:5 rdf:type data:makanan;
+    data:id "5";
+    data:nama "lite";
+    data:harga "Rp 11.200";
+    data:varian "rumput laut, bawang goreng";
+    data:perusahaan "Indofood" ;
+    data:subKategori "Snack" ;
+    data:urlFoto "https://cf.shopee.co.id/file/90b37256eac01b553d6d0a3088c491a6".
+
+
+data:6 rdf:type data:makanan;
+    data:id "6";
+    data:nama "Kopiko";
+    data:harga "Rp 500";
+    data:varian "kopi";
+    data:perusahaan "Mayoran" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1613980050/u1qtjt4stmzqzhehdwbn.jpg".
+
+
+data:7 rdf:type data:makanan;
+    data:id "7";
+    data:nama "beng-beng";
+    data:harga "Rp 1.500";
+    data:varian "-";
+    data:perusahaan "Mayoran" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://cf.shopee.co.id/file/db572b217ce298e397ea8fc452302f8a".
+
+
+data:8 rdf:type data:makanan;
+    data:id "8";
+    data:nama "choki-choki";
+    data:harga "Rp 3.000";
+    data:varian "original, kacang";
+    data:perusahaan "Mayoran" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://assets.klikindomaret.com/share/10000322_1.jpg".
+
+
+data:9 rdf:type data:makanan;
+    data:id "9";
+    data:nama "astor";
+    data:harga "Rp 2.000";
+    data:varian "-";
+    data:perusahaan "Mayoran" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://assets.klikindomaret.com/products/10036934/10036934_1.jpg".
+
+
+data:10 rdf:type data:makanan;
+    data:id "10";
+    data:nama "energen";
+    data:harga "Rp 1.000";
+    data:varian "oats, bubur kacang, coklat";
+    data:perusahaan "Mayoran" ;
+    data:subKategori "Daily" ;
+    data:urlFoto "https://cf.shopee.co.id/file/16527a534301d33bc3e321e69acdb198".
+
+
+data:11 rdf:type data:makanan;
+    data:id "11";
+    data:nama "kacang garuda";
+    data:harga "Rp 8.200";
+    data:varian "kulit, atom";
+    data:perusahaan "Garudafood" ;
+    data:subKategori "Snack" ;
+    data:urlFoto "https://assets.klikindomaret.com/share/10003381_1.jpg".
+
+
+data:12 rdf:type data:makanan;
+    data:id "12";
+    data:nama "gery salut";
+    data:harga "Rp 1.500";
+    data:varian "keju, abon, sapi panggang";
+    data:perusahaan "Garudafood" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://cdn.happyfresh.com/t/s_wide,c_fit/spree/images/attachments/eaba4bc0f60f7d9e379634178a57d5b70f57dbb9-original.jpg".
+
+
+data:13 rdf:type data:makanan;
+    data:id "13";
+    data:nama "chocolatos";
+    data:harga "Rp 3.000";
+    data:varian "putih, original";
+    data:perusahaan "Garudafood" ;
+    data:subKategori "Sweet" ;
+    data:urlFoto "https://padiumkm.id/public/products/26727/160076/chocolatos.1617617398.jpg".
+
+
+data:14 rdf:type data:makanan;
+    data:id "14";
+    data:nama "leo keripik kentang";
+    data:harga "Rp 5.200";
+    data:varian "sapi panggang, rumput laut, garam";
+    data:perusahaan "Garudafood" ;
+    data:subKategori "Snack" ;
+    data:urlFoto "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcH52KYNu0BbJ1ob9XyDIVB7TNbsYfFuong&usqp=CAU".
+
+
+data:15 rdf:type data:makanan;
+    data:id "15";
+    data:nama "prochiz";
+    data:harga "Rp 23.200";
+    data:varian "-";
+    data:perusahaan "Garudafood" ;
+    data:subKategori "Daily" ;
+    data:urlFoto "https://www.prochiz.com/wp-content/uploads/2021/09/prochiz_gold_cheddar_pack_1.png".
+
+
+data:16 rdf:type data:makanan;
+    data:id "16";
+    data:nama "Heineken";
+    data:harga "Rp 17.500";
+    data:varian "-";
+    data:perusahaan "Multibintang" ;
+    data:subKategori "Beverage" ;
+    data:urlFoto "https://www.heineken.com/media-az/01pfxdqq/heineken-original-bottle.png?quality=85".
+
+
+data:17 rdf:type data:makanan;
+    data:id "17";
+    data:nama "Bintang";
+    data:harga "Rp 12.200";
+    data:varian "-";
+    data:perusahaan "Multibintang" ;
+    data:subKategori "Beverage" ;
+    data:urlFoto "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//969/bintang_beer-bintang-bremer-pilsener-botol-besar_full02.jpg".
+
+
+data:18 rdf:type data:makanan;
+    data:id "18";
+    data:nama "strongbow";
+    data:harga "Rp 18.400";
+    data:varian "-";
+    data:perusahaan "Multibintang" ;
+    data:subKategori "Beverage" ;
+    data:urlFoto "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//94/MTA-4078515/strongbow_strongbow_cider_-330ml-_full02.jpg".
+
+
+data:19 rdf:type data:makanan;
+    data:id "19";
+    data:nama "greensands";
+    data:harga "Rp 11.000";
+    data:varian "anggur, leci";
+    data:perusahaan "Multibintang" ;
+    data:subKategori "Beverage" ;
+    data:urlFoto "https://assets.klikindomaret.com/share/10000107/10000107_1.jpg".
+
+
+data:20 rdf:type data:makanan;
+    data:id "20";
+    data:nama "fayrouz";
+    data:harga "Rp 7.900";
+    data:varian "-";
+    data:perusahaan "Multibintang" ;
+    data:subKategori "Beverage" ;
+    data:urlFoto "https://cf.shopee.co.id/file/fa2fd8c2a91791a52e4e6a8b4443facf".
